@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href = "https://www.naver.com">네이버로 바로 가기</a>  
+    <img src = "https://picsum.photos/400/400"/>
+
+    <script>
+        link1 = document.querySelector("a");
+        image1 = document.querySelector("img");
+
+        const originalLink = link1.getAttribute('href');
+        const originalimage = image1.getAttribute('img');
+        link1.setAttribute("href", "https://www.google.com");
+        link1.textContent = "구글로 바로가기";
+        
+        image1.setAttribute("src", "https://sites.google.com/site/chugguiyagi4836/_/rsrc/1472875988245/myeongmun-gudan-sogae/maencheseuteo-yunaitideu-fc-1/%EB%A6%AC%EB%B2%84%ED%92%80.PNG?height=298&width=400");
+
+    </script>
+</body>
+</html>
