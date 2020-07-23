@@ -1,0 +1,5 @@
+- [GET] /movies
+- [GET] / movies/:id
+- [POST] /movies
+- [PUT] /movies/:id
+- [DELETE] /movies/:id
